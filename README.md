@@ -24,6 +24,7 @@ https://marketplace.eclipse.org/content/hsqldb-database-server-plugin
 ![HSQLDB Server Conf](HSQLDB_Server_conf.PNG)
 
 * But you can start a server manually (May be change applicationContext.xml and liquidbase.properties)
+
 ### Run server
     java -cp ../lib/hsqldb.jar org.hsqldb.server.Server –database.0 file:sandboxDb –dbname.0 sandboxDb
 
