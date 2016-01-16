@@ -12,3 +12,9 @@ java -classpath .;../lib/hsqldb.jar org.hsqldb.util.DatabaseManager  -user sa -u
 
 ## test liquid base conf
 java -classpath .;../lib/hsqldb.jar org.hsqldb.util.DatabaseManager  -user sa -url jdbc:hsqldb:database/sandboxDb
+
+### HSQLDB Database Server plugin for Eclipse Database Development Perspective
+https://marketplace.eclipse.org/content/hsqldb-database-server-plugin
+
+## Problem for add HSQLDB Connection?
+[Database connection HSQLDB in Eclipe (Youtube)] (https://www.youtube.com/watch?v=GHfF9h0-GYY) 
