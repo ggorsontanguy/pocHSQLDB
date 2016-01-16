@@ -13,3 +13,7 @@ hs_err_pid*
 /target/
 /.classpath
 /.settings/
+
+# database HSQLDB
+database/*.lck
+database/*.log
