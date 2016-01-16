@@ -15,5 +15,6 @@ hs_err_pid*
 /.settings/
 
 # database HSQLDB
-database/*.lck
-database/*.log
+database
+database/*
+test.*
