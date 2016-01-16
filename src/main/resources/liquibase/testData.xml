@@ -1,0 +1,23 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+ 
+    <changeSet id="test_data_user_management" author="tillias" context="test">
+        <insert tableName="users">
+            <column name="id">1001</column>
+            <column name="first_name">John_Test</column>
+            <column name="last_name">Doe_Test</column>
+        </insert>
+        <insert tableName="users">
+            <column name="id">1002</column>
+            <column name="first_name">James_Test</column>
+            <column name="last_name">Brown_Test</column>
+        </insert>
+        <insert tableName="users">
+            <column name="id">1003</column>
+            <column name="first_name">Andrew_Test</column>
+            <column name="last_name">Green_Test</column>
+        </insert>
+    </changeSet>
+ 
+</databaseChangeLog>

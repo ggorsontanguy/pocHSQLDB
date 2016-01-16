@@ -46,7 +46,8 @@
 		</createTable>
 	</changeSet>
 
-	<changeSet id="data_user_management" author="tillias">
+	<changeSet id="data_user_management" author="tillias"
+		context="dev">
 		<insert tableName="roles">
 			<column name="id">1</column>
 			<column name="name">Guest</column>
@@ -75,7 +76,6 @@
 			<column name="first_name">Andrew</column>
 			<column name="last_name">Green</column>
 		</insert>
-
 		<insert tableName="users_roles">
 			<column name="user_id">1</column>
 			<column name="role_id">1</column>
@@ -88,5 +88,7 @@
 			<column name="user_id">3</column>
 			<column name="role_id">3</column>
 		</insert>
-</changeSet>
+	</changeSet>
+
+	<include file="src/main/resources/liquibase/testData.xml" />
 </databaseChangeLog>
